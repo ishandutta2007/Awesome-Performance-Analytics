@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.75" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <radialGradient id="glowViolet" cx="85%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowCyan" cx="15%" cy="80%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="titleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#818cf8" flood-opacity="0.4" />
+    </filter>
+
+    <style>
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(12px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 0.95; transform: scale(1.04); }
+      }
+      @keyframes barGrow {
+        0%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(1.25); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+
+      .floating-card-1 {
+        animation: floatSlow1 7s ease-in-out infinite;
+      }
+      .floating-card-2 {
+        animation: floatSlow2 8.5s ease-in-out infinite;
+      }
+      .floating-card-3 {
+        animation: floatSlow1 6.5s ease-in-out infinite;
+        animation-delay: -2s;
+      }
+      .pulsing-glow {
+        animation: pulseGlow 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .animated-line {
+        stroke-dasharray: 8, 6;
+        animation: dashMove 20s linear infinite;
+      }
+      .bar-anim-1 { animation: barGrow 4s ease-in-out infinite; transform-origin: bottom; }
+      .bar-anim-2 { animation: barGrow 3.5s ease-in-out infinite 0.7s; transform-origin: bottom; }
+      .bar-anim-3 { animation: barGrow 4.5s ease-in-out infinite 1.4s; transform-origin: bottom; }
+      .bar-anim-4 { animation: barGrow 3.8s ease-in-out infinite 0.3s; transform-origin: bottom; }
+
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Grid Pattern -->
+  <g opacity="0.08" stroke="#94a3b8" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="120" y1="0" x2="120" y2="360" />
+    <line x1="240" y1="0" x2="240" y2="360" />
+    <line x1="360" y1="0" x2="360" y2="360" />
+    <line x1="480" y1="0" x2="480" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="720" y1="0" x2="720" y2="360" />
+    <line x1="840" y1="0" x2="840" y2="360" />
+    <line x1="960" y1="0" x2="960" y2="360" />
+    <line x1="1080" y1="0" x2="1080" y2="360" />
+  </g>
+
+  <!-- Glowing Radial Ambient Spots (Dynamic) -->
+  <circle cx="980" cy="90" r="280" fill="url(#glowViolet)" class="pulsing-glow" />
+  <circle cx="160" cy="270" r="250" fill="url(#glowCyan)" class="pulsing-glow" style="animation-delay: -2.5s;" />
+
+  <!-- Background Decorative Dynamic Elements (Positioned away from center text) -->
+  <!-- Right-side Chart Visualization -->
+  <g opacity="0.45" transform="translate(860, 160)">
+    <!-- Filled area chart -->
+    <path d="M 0,110 Q 50,50 100,75 T 180,30 T 260,10 L 260,130 L 0,130 Z" fill="url(#chartGrad)" />
+    <path d="M 0,110 Q 50,50 100,75 T 180,30 T 260,10" fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" />
+    <!-- Mini KPI Spark Dots -->
+    <circle cx="100" cy="75" r="4" fill="#38bdf8" />
+    <circle cx="180" cy="30" r="4" fill="#818cf8" />
+    <circle cx="260" cy="10" r="5" fill="#34d399" />
+  </g>
+
+  <!-- Left-side Animated Metric Bars (Background Layer) -->
+  <g opacity="0.28" transform="translate(60, 180)">
+    <rect class="bar-anim-1" x="0" y="50" width="12" height="60" rx="3" fill="#38bdf8" />
+    <rect class="bar-anim-2" x="20" y="30" width="12" height="80" rx="3" fill="#818cf8" />
+    <rect class="bar-anim-3" x="40" y="15" width="12" height="95" rx="3" fill="#c084fc" />
+    <rect class="bar-anim-4" x="60" y="45" width="12" height="65" rx="3" fill="#34d399" />
+  </g>
+
+  <!-- Dynamic Floating Metric Cards / Badges (Subtle & In Background Sides) -->
+  <!-- Top Right Floating Pill -->
+  <g class="floating-card-1" transform="translate(900, 42)" filter="url(#shadowFilter)">
+    <rect width="240" height="42" rx="21" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.2" />
+    <circle cx="24" cy="21" r="7" fill="#10b981" />
+    <text x="42" y="26" fill="#f1f5f9" font-size="12" font-weight="600" class="font-sans">Query Latency: &lt; 12ms</text>
+  </g>
+
+  <!-- Bottom Right Floating Pill -->
+  <g class="floating-card-2" transform="translate(930, 275)" filter="url(#shadowFilter)">
+    <rect width="220" height="42" rx="21" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.2" />
+    <circle cx="22" cy="21" r="7" fill="#38bdf8" />
+    <text x="38" y="26" fill="#f1f5f9" font-size="12" font-weight="600" class="font-sans">Real-Time KPI Sync</text>
+  </g>
+
+  <!-- Top Left Floating Pill -->
+  <g class="floating-card-3" transform="translate(60, 48)" filter="url(#shadowFilter)">
+    <rect width="220" height="42" rx="21" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.2" />
+    <circle cx="22" cy="21" r="7" fill="#8b5cf6" />
+    <text x="38" y="26" fill="#f1f5f9" font-size="12" font-weight="600" class="font-sans">Self-Service BI Core</text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- FOREGROUND LAYER: TITLE, SUBTITLE & BADGES (CRISP & CLEAR) -->
+  <!-- Guaranteed high visibility: rendered last to stay on top -->
+  <!-- ======================================================== -->
+  <g id="foreground-content" transform="translate(600, 0)">
+    <!-- Header Badge -->
+    <g transform="translate(0, 78)">
+      <rect x="-165" y="0" width="330" height="30" rx="15" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" />
+      <text text-anchor="middle" x="0" y="20" fill="#a5b4fc" font-size="11.5" font-weight="700" letter-spacing="1.5" class="font-sans">
+        ⚡ CURATED ANALYTICS ECOSYSTEM
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 155)">
+      <!-- Title Shadow / Backing for crisp legibility -->
+      <text text-anchor="middle" x="0" y="0" fill="#030712" font-size="44" font-weight="900" letter-spacing="-0.5" class="font-sans" opacity="0.8" dy="2">
+        Awesome Performance Analytics
+      </text>
+      <!-- Gradient Main Title -->
+      <text text-anchor="middle" x="0" y="0" fill="url(#textGrad)" font-size="44" font-weight="900" letter-spacing="-0.5" class="font-sans" filter="url(#titleGlow)">
+        Awesome Performance Analytics
+      </text>
+    </g>
+
+    <!-- Subtitle -->
+    <g transform="translate(0, 202)">
+      <text text-anchor="middle" x="0" y="0" fill="#f8fafc" font-size="17" font-weight="600" class="font-sans">
+        KPI Tracking • Business Intelligence • Interactive Dashboards • Semantic Layers
+      </text>
+    </g>
+
+    <!-- Descriptive Second Line -->
+    <g transform="translate(0, 232)">
+      <text text-anchor="middle" x="0" y="0" fill="#94a3b8" font-size="13.5" font-weight="400" class="font-sans">
+        Curated SaaS Platforms &amp; Open-Source Projects for Modern Data &amp; Operations Teams
+      </text>
+    </g>
+
+    <!-- Feature Pillars / Category Badges in Foreground -->
+    <g transform="translate(0, 280)">
+      <!-- Pill 1: Enterprise SaaS -->
+      <g transform="translate(-230, 0)">
+        <rect x="-85" y="0" width="170" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" />
+        <text text-anchor="middle" x="0" y="22" fill="#38bdf8" font-size="12" font-weight="700" class="font-sans">🏢 Enterprise SaaS</text>
+      </g>
+      <!-- Pill 2: Open-Source BI -->
+      <g transform="translate(0, 0)">
+        <rect x="-85" y="0" width="170" height="34" rx="17" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" />
+        <text text-anchor="middle" x="0" y="22" fill="#a5b4fc" font-size="12" font-weight="700" class="font-sans">💻 Open-Source BI</text>
+      </g>
+      <!-- Pill 3: Metric Governance -->
+      <g transform="translate(230, 0)">
+        <rect x="-85" y="0" width="170" height="34" rx="17" fill="#0f172a" stroke="#34d399" stroke-width="1.2" />
+        <text text-anchor="middle" x="0" y="22" fill="#34d399" font-size="12" font-weight="700" class="font-sans">🎯 Metric Governance</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Border Outline -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="none" stroke="#334155" stroke-width="1" opacity="0.6" />
+</svg>
