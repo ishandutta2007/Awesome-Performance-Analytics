@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Performance-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Performance-Analytics?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Performance-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Performance-Analytics?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Performance-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Performance-Analytics?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Performance-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Performance-Analytics/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -79,87 +79,87 @@ Open-source performance analytics tools grant engineering and business teams ful
 
 ### 🌟 Open-Source Summary & Star Rankings
 
-The table below lists top open-source projects, **sorted strictly in descending order by GitHub star count**. Each star badge links directly to that repository's stargazers community page.
+The table below lists top open-source projects, **sorted strictly in descending order by GitHub Stars_Count**. Each Stars_Badge links directly to that repository's stargazers community page.
 
-| Project & Repo Link | GitHub Stars Badge | Primary Language / Stack | Primary Focus Area | License |
+| Project & Repo Link | GitHub_Stars_Badge | Primary Language / Stack | Primary Focus Area | License |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Grafana](https://github.com/grafana/grafana)** | [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | TypeScript, Go | Real-time time-series operational KPI dashboards & infrastructure monitoring | AGPLv3 |
-| **[Apache Superset](https://github.com/apache/superset)** | [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Python, TypeScript | Enterprise warehouse BI, SQL Lab IDE, 40+ chart visualizations, granular RBAC | Apache 2.0 |
-| **[Metabase](https://github.com/metabase/metabase)** | [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | Clojure, TypeScript | User-friendly self-service queries, visual question builder, automated digests | AGPLv3 |
-| **[Streamlit](https://github.com/streamlit/streamlit)** | [![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers) | Python | Fast Python-based interactive data apps, reactive KPI dashboards, and ML tools | Apache 2.0 |
-| **[SigNoz](https://github.com/SigNoz/signoz)** | [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) | Go, TypeScript, ClickHouse | Application performance analytics, APM metrics, distributed tracing, and SLA alerting | Apache 2.0 |
-| **[Redash](https://github.com/getredash/redash)** | [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers) | Python, JavaScript | Collaborative SQL querying, automated dashboard scheduling, and webhook alerts | BSD-2-Clause |
-| **[DataEase](https://github.com/dataease/dataease)** | [![GitHub stars](https://img.shields.io/github/stars/dataease/dataease?style=social&color=white)](https://github.com/dataease/dataease/stargazers) | Java, Vue.js | Drag-and-drop open-source BI dashboard platform alternative to Tableau/Power BI | Apache 2.0 |
-| **[Plotly Dash](https://github.com/plotly/dash)** | [![GitHub stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers) | Python, React | Production-grade low-latency analytical web applications with deep chart reactivity | MIT |
-| **[Cube.js](https://github.com/cube-js/cube)** | [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) | Rust, TypeScript | Headless universal semantic layer, pre-aggregations, sub-second query caching | Apache 2.0 |
-| **[Wren AI](https://github.com/Canner/WrenAI)** | [![GitHub stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers) | TypeScript, Python | AI-native conversational BI engine translating natural language to governed SQL | Apache 2.0 |
-| **[PyGWalker](https://github.com/Kanaries/pygwalker)** | [![GitHub stars](https://img.shields.io/github/stars/Kanaries/pygwalker?style=social&color=white)](https://github.com/Kanaries/pygwalker/stargazers) | Python, TypeScript | Lightweight interactive Tableau-like visual exploration UI inside Jupyter Notebooks | Apache 2.0 |
-| **[Evidence.dev](https://github.com/evidence-dev/evidence)** | [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers) | Svelte, JavaScript | Analytics-as-code framework: Markdown + SQL compiled into fast static reports | MIT |
-| **[Lightdash](https://github.com/lightdash/lightdash)** | [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers) | TypeScript | Git-integrated BI platform turning dbt semantic models into self-serve metrics | MIT |
-| **[Tremor](https://github.com/tremorlabs/tremor)** | [![GitHub stars](https://img.shields.io/github/stars/tremorlabs/tremor?style=social&color=white)](https://github.com/tremorlabs/tremor/stargazers) | TypeScript, React | Modular, accessible React & Tailwind UI component library for building modern dashboards | Apache 2.0 |
-| **[Rill Data](https://github.com/rilldata/rill)** | [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers) | Go, Svelte, DuckDB | Code-native BI and fast operational dashboards backed by DuckDB and ClickHouse | Apache 2.0 |
+| **[Grafana](https://github.com/grafana/grafana)** | [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | TypeScript, Go | Real-time time-series operational KPI dashboards & infrastructure monitoring | AGPLv3 |
+| **[Apache Superset](https://github.com/apache/superset)** | [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) | Python, TypeScript | Enterprise warehouse BI, SQL Lab IDE, 40+ chart visualizations, granular RBAC | Apache 2.0 |
+| **[Metabase](https://github.com/metabase/metabase)** | [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers) | Clojure, TypeScript | User-friendly self-service queries, visual question builder, automated digests | AGPLv3 |
+| **[Streamlit](https://github.com/streamlit/streamlit)** | [![GitHub_Stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers) | Python | Fast Python-based interactive data apps, reactive KPI dashboards, and ML tools | Apache 2.0 |
+| **[SigNoz](https://github.com/SigNoz/signoz)** | [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) | Go, TypeScript, ClickHouse | Application performance analytics, APM metrics, distributed tracing, and SLA alerting | Apache 2.0 |
+| **[Redash](https://github.com/getredash/redash)** | [![GitHub_Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers) | Python, JavaScript | Collaborative SQL querying, automated dashboard scheduling, and webhook alerts | BSD-2-Clause |
+| **[DataEase](https://github.com/dataease/dataease)** | [![GitHub_Stars](https://img.shields.io/github/stars/dataease/dataease?style=social&color=white)](https://github.com/dataease/dataease/stargazers) | Java, Vue.js | Drag-and-drop open-source BI dashboard platform alternative to Tableau/Power BI | Apache 2.0 |
+| **[Plotly Dash](https://github.com/plotly/dash)** | [![GitHub_Stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers) | Python, React | Production-grade low-latency analytical web applications with deep chart reactivity | MIT |
+| **[Cube.js](https://github.com/cube-js/cube)** | [![GitHub_Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers) | Rust, TypeScript | Headless universal semantic layer, pre-aggregations, sub-second query caching | Apache 2.0 |
+| **[Wren AI](https://github.com/Canner/WrenAI)** | [![GitHub_Stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers) | TypeScript, Python | AI-native conversational BI engine translating natural language to governed SQL | Apache 2.0 |
+| **[PyGWalker](https://github.com/Kanaries/pygwalker)** | [![GitHub_Stars](https://img.shields.io/github/stars/Kanaries/pygwalker?style=social&color=white)](https://github.com/Kanaries/pygwalker/stargazers) | Python, TypeScript | Lightweight interactive Tableau-like visual exploration UI inside Jupyter Notebooks | Apache 2.0 |
+| **[Evidence.dev](https://github.com/evidence-dev/evidence)** | [![GitHub_Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers) | Svelte, JavaScript | Analytics-as-code framework: Markdown + SQL compiled into fast static reports | MIT |
+| **[Lightdash](https://github.com/lightdash/lightdash)** | [![GitHub_Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers) | TypeScript | Git-integrated BI platform turning dbt semantic models into self-serve metrics | MIT |
+| **[Tremor](https://github.com/tremorlabs/tremor)** | [![GitHub_Stars](https://img.shields.io/github/stars/tremorlabs/tremor?style=social&color=white)](https://github.com/tremorlabs/tremor/stargazers) | TypeScript, React | Modular, accessible React & Tailwind UI component library for building modern dashboards | Apache 2.0 |
+| **[Rill Data](https://github.com/rilldata/rill)** | [![GitHub_Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers) | Go, Svelte, DuckDB | Code-native BI and fast operational dashboards backed by DuckDB and ClickHouse | Apache 2.0 |
 
 ---
 
 ### 🔍 Detailed Open-Source Profiles
 
-#### 1. [Grafana](https://github.com/grafana/grafana) [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+#### 1. [Grafana](https://github.com/grafana/grafana) [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
 - **Primary Focus:** Operational KPI dashboards, time-series monitoring, and distributed system observability.
 - **Why it matters:** The undisputed gold standard for time-series visualization. Connects natively to Prometheus, InfluxDB, Loki, and relational databases. Best suited for real-time systems, operational uptime scorecards, and IoT/hardware performance metrics.
 
-#### 2. [Apache Superset](https://github.com/apache/superset) [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+#### 2. [Apache Superset](https://github.com/apache/superset) [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
 - **Primary Focus:** Full-scale enterprise business intelligence and interactive data exploration over modern data lakes and warehouses.
 - **Why it matters:** Backed by the Apache Software Foundation and Preset, Superset offers 40+ visualization plugins, a comprehensive SQL Lab query IDE, dataset semantic caching, row-level security (RLS), and support for any SQL-speaking data warehouse via SQLAlchemy.
 
-#### 3. [Metabase](https://github.com/metabase/metabase) [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
+#### 3. [Metabase](https://github.com/metabase/metabase) [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
 - **Primary Focus:** Non-technical self-service analytics and rapid question/answer dashboard generation.
 - **Why it matters:** Deploys in minutes via a single Docker container or JAR. Features an intuitive visual query builder that lets business stakeholders filter, summarize, and drill down into data without writing SQL. Includes automated Slack/email subscription pulses.
 
-#### 4. [Streamlit](https://github.com/streamlit/streamlit) [![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)
+#### 4. [Streamlit](https://github.com/streamlit/streamlit) [![GitHub_Stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)
 - **Primary Focus:** Pythonic data app creation for rapid analytics prototyping and model dashboards.
 - **Why it matters:** Enables data scientists and analysts to convert Python data analysis scripts into full interactive performance dashboards in pure Python, complete with sliders, charts, file uploaders, and real-time state re-execution.
 
-#### 5. [SigNoz](https://github.com/SigNoz/signoz) [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+#### 5. [SigNoz](https://github.com/SigNoz/signoz) [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
 - **Primary Focus:** Full-stack APM performance analytics, latency percentile tracking, error rates, and OpenTelemetry telemetry.
 - **Why it matters:** Built on top of ClickHouse columnar storage for lightning-fast aggregation, SigNoz provides a modern open-source alternative to Datadog for tracking service-level objectives (SLOs), p99 latency KPIs, and infrastructure health.
 
-#### 6. [Redash](https://github.com/getredash/redash) [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)
+#### 6. [Redash](https://github.com/getredash/redash) [![GitHub_Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)
 - **Primary Focus:** SQL-first dashboarding, query sharing, and parameter-driven report generation.
 - **Why it matters:** Connects to dozens of SQL and NoSQL sources. While core development cadence has stabilized, Redash remains widely adopted for lightweight internal reporting and quick SQL query visualization.
 
-#### 7. [DataEase](https://github.com/dataease/dataease) [![GitHub stars](https://img.shields.io/github/stars/dataease/dataease?style=social&color=white)](https://github.com/dataease/dataease/stargazers)
+#### 7. [DataEase](https://github.com/dataease/dataease) [![GitHub_Stars](https://img.shields.io/github/stars/dataease/dataease?style=social&color=white)](https://github.com/dataease/dataease/stargazers)
 - **Primary Focus:** Visual drag-and-drop dashboard design engineered as an open-source alternative to Tableau and FineBI.
 - **Why it matters:** Features an extensive library of interactive templates, zero-code layout builders, multi-tenant workspace isolation, and rich support for relational databases, Doris, and StarRocks.
 
-#### 8. [Plotly Dash](https://github.com/plotly/dash) [![GitHub stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers)
+#### 8. [Plotly Dash](https://github.com/plotly/dash) [![GitHub_Stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers)
 - **Primary Focus:** Low-latency analytical web applications and custom data visualization pipelines.
 - **Why it matters:** Couples Plotly.js chart rendering with Flask and React. Built for enterprise computational environments where complex calculation engines (Python/R) must execute in response to UI interactions.
 
-#### 9. [Cube.js](https://github.com/cube-js/cube) [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)
+#### 9. [Cube.js](https://github.com/cube-js/cube) [![GitHub_Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)
 - **Primary Focus:** Universal headless semantic layer, metrics consistency, and sub-second SQL API caching.
 - **Why it matters:** Solves the "split metrics" crisis where different dashboard tools report different numbers for the same KPI. Sits between the database and visualization frontends, pre-aggregating data in Cube Store and enforcing centralized role-based security.
 
-#### 10. [Wren AI](https://github.com/Canner/WrenAI) [![GitHub stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers)
+#### 10. [Wren AI](https://github.com/Canner/WrenAI) [![GitHub_Stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers)
 - **Primary Focus:** Conversational business intelligence and AI-driven SQL translation.
 - **Why it matters:** Pairs large language models with a contextual semantic modeling engine. Users can ask questions in plain English ("What was our retention rate by channel last month?") and Wren AI derives accurate SQL without hallucinating schema attributes.
 
-#### 11. [PyGWalker](https://github.com/Kanaries/pygwalker) [![GitHub stars](https://img.shields.io/github/stars/Kanaries/pygwalker?style=social&color=white)](https://github.com/Kanaries/pygwalker/stargazers)
+#### 11. [PyGWalker](https://github.com/Kanaries/pygwalker) [![GitHub_Stars](https://img.shields.io/github/stars/Kanaries/pygwalker?style=social&color=white)](https://github.com/Kanaries/pygwalker/stargazers)
 - **Primary Focus:** Embedded Tableau-like visual exploration interface for Python dataframes.
 - **Why it matters:** Turns any Pandas or Polars dataframe into an interactive drag-and-drop graphic interface directly inside Jupyter Notebook, Streamlit, or web applications with a single line of code (`pyg.walk(df)`).
 
-#### 12. [Evidence.dev](https://github.com/evidence-dev/evidence) [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)
+#### 12. [Evidence.dev](https://github.com/evidence-dev/evidence) [![GitHub_Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)
 - **Primary Focus:** Code-first analytics-as-code framework compiling Markdown and SQL into web-ready static reports.
 - **Why it matters:** Built specifically for data teams that value Git version control, continuous integration, and pull request reviews. Reports are declared in pure Markdown with embedded SQL code blocks and rendered with instant client-side reactivity.
 
-#### 13. [Lightdash](https://github.com/lightdash/lightdash) [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)
+#### 13. [Lightdash](https://github.com/lightdash/lightdash) [![GitHub_Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)
 - **Primary Focus:** dbt-native self-service business intelligence platform.
 - **Why it matters:** Eliminates redundant metric definitions by transforming the existing dbt semantic project (`schema.yml`) directly into the BI data model. Changes committed in dbt are instantly reflected across charts and user queries.
 
-#### 14. [Tremor](https://github.com/tremorlabs/tremor) [![GitHub stars](https://img.shields.io/github/stars/tremorlabs/tremor?style=social&color=white)](https://github.com/tremorlabs/tremor/stargazers)
+#### 14. [Tremor](https://github.com/tremorlabs/tremor) [![GitHub_Stars](https://img.shields.io/github/stars/tremorlabs/tremor?style=social&color=white)](https://github.com/tremorlabs/tremor/stargazers)
 - **Primary Focus:** Modular React component framework designed specifically for dashboards and KPI widgets.
 - **Why it matters:** Provides ready-to-use metric cards, callout badges, bar lists, sparklines, and progress bars styled with Tailwind CSS, accelerating internal dashboard UI development for frontend engineers.
 
-#### 15. [Rill Data](https://github.com/rilldata/rill) [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)
+#### 15. [Rill Data](https://github.com/rilldata/rill) [![GitHub_Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)
 - **Primary Focus:** Operational BI combining fast in-memory analytics engines (DuckDB / ClickHouse) with code-driven dashboards.
 - **Why it matters:** Delivers sub-second response times on massive datasets by leveraging embedded columnar execution. Models, dimensions, and KPI scorecards are configured as declarative YAML files in source control.
 
@@ -227,7 +227,7 @@ Contributions to expand and update this performance analytics directory are warm
 2. **Create a branch** for your update (`git checkout -b feature/add-new-analytics-tool`).
 3. **Edit `README.md`** following the established format:
    - For SaaS tools: Include specific pricing tiers, verified free tier limits, and corporate scale.
-   - For Open-Source tools: Include GitHub repository links, official license, and exact star badges.
+   - For Open-Source tools: Include GitHub repository links, official license, and exact Stars_Badges.
 4. **Submit a Pull Request** with a concise summary explaining why the tool belongs in this curated collection.
 
 ---
